@@ -1,3 +1,7 @@
-npm i -g @nestjs/cli
-npm new slepper
-nest generate library common
+npm i -g @nestjs/cli // installing global cli
+npm new slepper // creating new project
+nest generate library common // geenrating common library
+pnpm i @nestjs/mongoose mongoose // installing mongoose
+ pnpm i @nestjs/config // picking env file value
+ nest generate module database -p common // create database folder inside common folder
+ nest generate module confuge -p common
