@@ -5,3 +5,5 @@ pnpm i @nestjs/mongoose mongoose // installing mongoose
  pnpm i @nestjs/config // picking env file value
  nest generate module database -p common // create database folder inside common folder
  nest generate module confuge -p common
+ nest g app reservations
+ nest g resource reservations
